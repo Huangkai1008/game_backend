@@ -12,4 +12,11 @@ class GameScrapyItem(scrapy.Item):
     """
     游戏信息爬虫
     """
-    pass
+    name = scrapy.Field()
+    foreign_name = scrapy.Field()
+    language = scrapy.Field()
+    tags = scrapy.Field()
+    company = scrapy.Field()
+    type = scrapy.Field()
+    desc = scrapy.Field()
+
